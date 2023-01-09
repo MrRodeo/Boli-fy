@@ -1,0 +1,228 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title */
+.col-lg-6 {
+  text-align: left;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Ubuntu'
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.navbar {
+  padding-bottom: 4rem;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: 'Montserrat-light'
+}
+
+/* Button */
+
+.btn-dwn {
+  margin: 5% 4% 5% 0;
+}
+
+.phone-img {
+  border-radius: 15px;
+  width: 20%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  left: 58%;
+}
+
+/* Background color & color */
+
+.red {
+  background: #3C6255;
+}
+.white {
+  background: #A3BB98;
+}
+.boom {
+  color: #fff;
+}
+
+/* feature box */
+
+#features {
+  padding: 5% 15%;
+  position: relative;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #3C6255;
+}
+
+.icon:hover {
+  color: #61876E;
+}
+
+/* Testimonials */
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* Press */
+#press {
+  padding: 3rem;
+}
+
+@media (max-width: 1000px){
+.press-img {
+  width: 35%;
+  padding: 20px 20px;
+  }
+}
+
+.press-img {
+  width: 50%;
+  padding: 20px 20px;
+  }
+
+/* Pricing */
+
+.row-pad {
+  padding: 3% 15%;
+}
+
+.card {
+  background: #A3BB98;
+}
+.card-body {
+  color: #000;
+}
+.card-header {
+  color: #000;
+}
+.pricing-header {
+  padding-top: 5%;
+}
+
+@media (max-width:1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+/* Call to action */
+
+#cta {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+
+/* Footer */
+#footer {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.footer, p:hover {
+  color: white;
+}
+
+.footie {
+  padding: 0 20px;
+}
+
+/* Exercise */
+/*
+a {
+  text-decoration: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li a:hover, a:focus {
+  color: steelblue;
+  background-color: gold;
+}
+
+a:visited {
+  color: green;
+}
+
+li {
+  border: 2px solid steelblue;
+  border-radius: 20px;
+}
+
+a:nth-child(1) {
+  border-radius: 20px;
+}
+
+li a {
+  display: block;
+}
+nav {
+  margin: auto;
+  margin-top: 20px;
+  background: #fff;
+  line-height: 2.5;
+  letter-spacing: 1.5;
+  width: 50rem;
+  text-align: center;
+}
+
+.Ibiza {
+  background: gold;
+  border-radius: 20px 20px;
+} */
